@@ -38,10 +38,10 @@ How to run this image:
         docker inspect wp
         docker inspect mariadb-wp
  
-6.Install wordpress, type localhost:8085 or http://127.0.0.1:8085/wp-admin/setup-config.php
-   klik Let's go ! > enter your database connection details (see in your docker-compose.yml don't forget to insert Database Host with network database) > submmit and finish your installation steps.
-
-7. Set permission back to 755 for security reasons
+ 6.Install wordpress, type localhost:8085 or http://127.0.0.1:8085/wp-admin/setup-config.php
+   klik Let's go ! > enter your database connection details (see in your docker-compose.yml don't forget to insert Database Host   with network database) > submmit and finish your installation steps.
+ 
+ 7. Set permission back to 755 for security reasons
 
 How to get in container after run this image:
 
