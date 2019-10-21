@@ -45,7 +45,7 @@ Clone this repository on your local computer and checkout the appropriate branch
  
 7. Set permission back to 755 for security reasons
 
-# How to get in container after run this image:
+# How to get in container after run this docker-compose:
 
     docker exec -it wp /bin/bash
     docker exec -it mriadb-wp /bin/bash
