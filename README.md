@@ -5,7 +5,7 @@ Maintainer:
 
 Risda Cahya Utami (risda.c.utami@gmail.com)
 
-Installation
+# Installation
 
 Clone this repository on your local computer and checkout the appropriate branch e.g. 7.3.x. Run the docker-compose up -d.
 
@@ -13,7 +13,7 @@ Clone this repository on your local computer and checkout the appropriate branch
     cd docker-compose-wordpress
     nano docker-compose.yml
     
-How to run this docker-compose:
+# How to run this docker-compose:
 
 1. Change database on docker-compose.yml or creat your database for your wordpress.
      
@@ -45,7 +45,7 @@ How to run this docker-compose:
  
 7. Set permission back to 755 for security reasons
 
-How to get in container after run this image:
+# How to get in container after run this image:
 
     docker exec -it wp /bin/bash
     docker exec -it mriadb-wp /bin/bash
