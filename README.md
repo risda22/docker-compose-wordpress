@@ -5,11 +5,15 @@ Maintainer:
 
 Risda Cahya Utami (risda.c.utami@gmail.com)
 
-How to pull this image:
+Installation
 
-    docker pull 
+Clone this repository on your local computer and checkout the appropriate branch e.g. 7.3.x. Run the docker-compose up -d.
 
-How to run this image:
+    git clone https://github.com/risda22/docker-compose-wordpress.git
+    cd docker-compose-wordpress
+    nano docker-compose.yml
+    
+How to run this docker-compose:
 
 1. Change database on docker-compose.yml or creat your database for your wordpress.
      
@@ -37,11 +41,9 @@ How to run this image:
         docker inspect <name service>  
         docker inspect wp
         docker inspect mariadb-wp
+6.Install wordpress, type localhost:8085 or http://127.0.0.1:8085/wp-admin/setup-config.php klik Let's go ! > enter your database connection details (see in your docker-compose.yml don't forget to insert Database Host   with network database) > submmit and finish your installation steps.
  
- 6.Install wordpress, type localhost:8085 or http://127.0.0.1:8085/wp-admin/setup-config.php
-   klik Let's go ! > enter your database connection details (see in your docker-compose.yml don't forget to insert Database Host   with network database) > submmit and finish your installation steps.
- 
- 7. Set permission back to 755 for security reasons
+7. Set permission back to 755 for security reasons
 
 How to get in container after run this image:
 
